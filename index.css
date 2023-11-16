@@ -1,0 +1,180 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#585c6a;
+}
+a{
+    text-decoration:none;
+    color: #585c6a;
+}
+
+/* Inicio do menu */
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    /* width: 100%; */
+}
+.cabecalho > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* espaço interno */
+    width: 420px;
+}
+.cabecalho > nav > a:hover{
+    color: orange;
+}
+
+/* Fim o menu */
+/* Inicio do Hero */
+ .hero{
+    background-image: url(assets/por-do-sol.jpg);
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    color: white;
+}
+.hero > h1 {
+    width: 30%;
+    text-decoration: underline;
+    line-height: 38px;
+}
+.hero > h4 {
+    font-weight: 400;
+}
+.hero > button {
+    background-color: orange;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: 0px;
+}
+/* fim do hero */
+
+/* inicio do main */
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > header {
+    text-align: center;
+}
+.card-container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 8px 0px;
+    margin: 16px 0px;
+    
+
+}
+.card-container > div {
+width: 250px;
+height: 260px;
+background-color: #cccc;
+text-align: center;
+padding: 12px 16px;
+border-radius: 6px;
+box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.card-container > div > .material-symbols-outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px ;
+    color: orange;
+ 
+    
+}
+
+.card-container > div > .material-symbols-outlined:first-child(){
+font-size: 48px;
+
+}
+
+.card-container > div > button {
+border-radius: 10%;
+background-color: gray;
+border: 0px;
+padding: 8px 12px;
+color: white;
+font-weight: 700;
+cursor: pointer;
+}
+
+.card-container > div > button:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.card-container > div > h6 {
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+/* fim do main */
+
+/*inicio do footer */
+footer   {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+    
+}
+footer > h4 {
+    font-weight: 400;
+}
+
+footer > .footer_button_container {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    width:30% ;
+    height: 25px;
+}
+
+.footer_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    height: 15px;
+    width: 15px; 
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+.footer_button > span {
+    color: white;
+} 
